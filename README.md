@@ -38,29 +38,19 @@ daftar = db.cek_daftar(nik)
 ```
 ### Contoh code
 ```PYTHON
-# import module nikreader
 import nikreader
 
 db = nikreader.Database()
 nik = 'kode-nik'
 
-provinsi = db.cek_provinsi(nik)
-kab = db.cek_kota(nik)
-kec = db.cek_kecamatan(nik)
-gender = db.cek_gender(nik)
-tgl = db.cek_tanggal_lahir(nik)
-bln = db.cek_bulan_lahir(nik)
-thn = db.cek_tahun_lahir(nik)
-daftar = db.cek_daftar(nik)
-
-print(provinsi)
-print(kab)
-print(kec)
-print(gender)
-print(tgl)
-print(bln)
-print(thn)
-print(daftar)
+print(db.cek_provinsi(nik))
+print(db.cek_kota(nik))
+print(db.cek_kecamatan(nik))
+print(db.cek_gender(nik))
+print(db.cek_tanggal_lahir(nik))
+print(db.cek_bulan_lahir(nik))
+print(db.cek_tahun_lahir(nik))
+print(db.cek_daftar(nik))
 ```
 # Penutup
 Sebenernya sudah banyak yang membuat nik reader seperti ini namun saya mencoba membuatnya dengan bahasa python karena kebanyakan membuatnya dari bahasa php, javascript dll. Semoga suka dengan module nya hehe. Terima Kasih sudah menggunakan:)

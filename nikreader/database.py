@@ -5,7 +5,7 @@ class Database:
     def __init__(self, data_path=None):
         if data_path is None:
             nikreader_dir = os.path.dirname(os.path.abspath(__file__))
-            data_path = os.path.join(nikreader_dir, 'database.json')
+            data_path = os.path.join(nikreader_dir,'nikreader','database.json')
         self.data = self.load_data(data_path)
         
     def load_data(self, file_path):
@@ -57,4 +57,4 @@ class Database:
         tahun = 2000 + thn if thn <= 23 else 1900 + thn
         return tahun
     
-Database('database.json')
+Database()

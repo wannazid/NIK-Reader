@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+nikreader/__init__.py
+nikreader/database.json
+nikreader/database.py
+nikreader.egg-info/PKG-INFO
+nikreader.egg-info/SOURCES.txt
+nikreader.egg-info/dependency_links.txt
+nikreader.egg-info/top_level.txt

@@ -10,5 +10,6 @@ setup(
     author_email='malastech.id@gmail.com',
     license='MIT',
     data_files=[('nikreader', ['nikreader/database.json'])],
+    input_package_data=True,
     keywords=['nikreader', 'NIK Ekstraktor', 'Python'],
 )

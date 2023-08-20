@@ -57,4 +57,4 @@ class Database:
         tahun = 2000 + thn if thn <= 23 else 1900 + thn
         return tahun
     
-Database('nikreader/database.json')
+Database('database.json')

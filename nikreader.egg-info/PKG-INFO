@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nikreader
+Version: 0.1
+Summary: Sebuah modul untuk membaca kode NIK pada KTP dan menjadi beberapa bagian.
+Home-page: https://github.com/wannazid/NIK-Reader
+Author: wannazid
+Author-email: malastech.id@gmail.com
+License: MIT
+Keywords: nikreader,NIK Ekstraktor,Python

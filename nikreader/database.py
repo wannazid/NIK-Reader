@@ -5,7 +5,7 @@ class Database:
     def __init__(self, data_path=None):
         if data_path is None:
             nikreader_dir = os.path.dirname(os.path.abspath(__file__))
-            data_path = os.path.join(nikreader_dir,'nikreader','database.json')
+            data_path = os.path.join(nikreader_dir,'./','database.json')
         self.data = self.load_data(data_path)
         
     def load_data(self, file_path):
